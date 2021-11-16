@@ -1,0 +1,46 @@
+﻿<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <OutputType>WinExe</OutputType>
+    <TargetFramework>net5.0-windows</TargetFramework>
+    <UseWindowsForms>true</UseWindowsForms>
+    <Platforms>AnyCPU;x64</Platforms>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <Reference Include="MapGIS.DependLibrary">
+      <HintPath>..\..\..\..\MapGIS 10 Installation directory\MapGIS 10\Program\MapGIS.DependLibrary.dll</HintPath>
+    </Reference>
+    <Reference Include="MapGIS.Desktop.Resources">
+      <HintPath>..\..\..\..\MapGIS 10 Installation directory\MapGIS 10\Program\MapGIS.Desktop.Resources.dll</HintPath>
+    </Reference>
+    <Reference Include="MapGIS.GeoDataBase">
+      <HintPath>..\..\..\..\MapGIS 10 Installation directory\MapGIS 10\Program\MapGIS.GeoDataBase.dll</HintPath>
+    </Reference>
+    <Reference Include="MapGIS.GeoMap">
+      <HintPath>..\..\..\..\MapGIS 10 Installation directory\MapGIS 10\Program\MapGIS.GeoMap.dll</HintPath>
+    </Reference>
+    <Reference Include="MapGIS.GeoObjects">
+      <HintPath>..\..\..\..\MapGIS 10 Installation directory\MapGIS 10\Program\MapGIS.GeoObjects.dll</HintPath>
+    </Reference>
+    <Reference Include="MapGIS.GISControl">
+      <HintPath>..\..\..\..\MapGIS 10 Installation directory\MapGIS 10\Program\MapGIS.GISControl.dll</HintPath>
+    </Reference>
+    <Reference Include="MapGIS.RasAnalysis">
+      <HintPath>..\..\..\..\MapGIS 10 Installation directory\MapGIS 10\Program\MapGIS.RasAnalysis.dll</HintPath>
+    </Reference>
+    <Reference Include="MapGIS.SpatialAnalysis">
+      <HintPath>..\..\..\..\MapGIS 10 Installation directory\MapGIS 10\Program\MapGIS.SpatialAnalysis.dll</HintPath>
+    </Reference>
+    <Reference Include="MapGIS.UI.Controls">
+      <HintPath>..\..\..\..\MapGIS 10 Installation directory\MapGIS 10\Program\MapGIS.UI.Controls.dll</HintPath>
+    </Reference>
+    <Reference Include="MapGIS.WorkSpace.Style">
+      <HintPath>..\..\..\..\MapGIS 10 Installation directory\MapGIS 10\Program\MapGIS.WorkSpace.Style.dll</HintPath>
+    </Reference>
+    <Reference Include="MapGIS.WorkSpaceEngine">
+      <HintPath>..\..\..\..\MapGIS 10 Installation directory\MapGIS 10\Program\MapGIS.WorkSpaceEngine.dll</HintPath>
+    </Reference>
+  </ItemGroup>
+
+</Project>
