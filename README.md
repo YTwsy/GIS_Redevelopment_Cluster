@@ -1,5 +1,7 @@
 # MapGIS_Redevelopment_Cluster
 基于MapGIS的聚类二次开发
+参考的MapGIS官方文档
+http://www.smaryun.com/dev/resource_center.html#/type27/tag183/page1/doc517
 基础的功能：
 1、对聚类方法进行选择
 2、对选择的聚类方法进行设置
